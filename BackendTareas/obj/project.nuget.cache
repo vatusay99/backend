@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8RnKVUm32Bk=",
+  "dgSpecHash": "i9/IK/ztPyE=",
   "success": true,
   "projectFilePath": "C:\\Users\\tumaj\\source\\repos\\BackendTareas\\BackendTareas\\BackendTareas.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tumaj\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\tumaj\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\tumaj\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tumaj\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
