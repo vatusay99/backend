@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendTareas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1885e017391d79d9d74939aadab29d69944550")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9515e014104e00c49ae5274497bd9e7fc825171f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendTareas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendTareas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

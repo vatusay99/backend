@@ -16,7 +16,18 @@ namespace BackendTareas.Repositorio
         public bool ActualizarTarea(Tarea tarea)
         {
             tarea.CreateAt = DateTime.Now;
-            _db.Tareas.Update(tarea);
+
+            // Arreglar problemas del put
+            var tareaExistente = _db.Tareas.Find(tarea.Id);
+            if (tareaExistente != null)
+            {
+                _db.Entry(tareaExistente).CurrentValues.SetValues(tarea);
+            }
+            else
+            {
+                _db.Tareas.Update(tarea);
+            }
+            
             return Guardar();
         }
 

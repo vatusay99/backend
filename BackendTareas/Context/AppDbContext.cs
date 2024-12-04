@@ -11,5 +11,6 @@ namespace BackendTareas.Context
         }
 
         public DbSet<Tarea> Tareas { get; set; }
+        public object Tarea { get; internal set; }
     }
 }
